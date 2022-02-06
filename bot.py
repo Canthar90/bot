@@ -13,7 +13,7 @@ import asyncio
 
 
 
-TOKEN = 'OTE2MjE0NTM0MjYyMzc4NTM2.Yam5Rw.Cc___jALpL0zQ3DZ6-uk4QOGc4Q'
+TOKEN = 'Your token '
 
 client = discord.Client()
 
@@ -23,7 +23,7 @@ async def on_ready():
 
 
 
-jarkendar=client.get_channel(920557144384868403)
+jarkendar=client.get_channel(channel name)
 
 
 
@@ -40,7 +40,7 @@ async def on_message(message):
     print(f'{username}: {user_message}({channel})')
 #ponizej ladujemy sobie plik z memami
     #fileNameArray = [x for x in os.listdir("E:/memowo") if os.path.isfile(os.path.join("E:/memowo", x))]
-    fileNameArray = [x for x in os.listdir("C:/programowanko/memowo") if os.path.isfile(os.path.join("C:/programowanko/memowo", x))]
+    fileNameArray = [x for x in os.listdir("path") if os.path.isfile(os.path.join("path", x))]
     #print(fileNameArray)
 
     
@@ -144,8 +144,8 @@ async def daty_godziny ():
     await client.wait_until_ready()
 
     time.sleep(4)
-    jarkendar = client.get_channel(920557144384868403)
-    samo_jedzonko = client.get_channel(419997785614712834)
+    jarkendar = client.get_channel(channel id)
+    samo_jedzonko = client.get_channel(channel id)
     papa = 0
     while not client.is_closed():
         await asyncio.sleep(20)
